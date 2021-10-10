@@ -17,7 +17,9 @@ const LogIn = props => {
             credentials: 'include',
             body: JSON.stringify({email, password})
         });
+        console.log("response = ", response);
         const data = await response.json();
+        console.log("data = ", data);
         setErrors(data.errors || []);
         if (response.ok) {
             setCurrentUser(data.current_user);

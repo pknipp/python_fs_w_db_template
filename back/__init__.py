@@ -5,10 +5,10 @@ from flask_wtf.csrf import CSRFProtect, generate_csrf
 from flask_login import LoginManager, \
     current_user, login_user, logout_user, login_required
 from flask_migrate import Migrate
-from python_fs.models import db, User
-from python_fs.api.session import session
-from python_fs.api.users import users
-from python_fs.config import Config
+from back.models import db, User
+from back.api.session import session
+from back.api.users import users
+from back.config import Config
 from datetime import datetime
 
 

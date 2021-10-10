@@ -1,1 +1,1 @@
-Create separate front-end and back-end versions of this..
+Create separate front-end of this..
