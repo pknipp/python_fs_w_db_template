@@ -1,5 +1,5 @@
-from python_fs.models import User
-from python_fs import app, db
+from back.models import User
+from back import app, db
 from dotenv import load_dotenv
 from datetime import date, datetime, timedelta
 from faker import Faker
